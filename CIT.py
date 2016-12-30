@@ -8,8 +8,8 @@
 __name__ = "CIT- Cisco invastigation Toolkit"
 __authors__ = ["Omree Benari", "Miryam Adjiashvili"]
 __version__ = "0.1"
-__version_name__ = "start"
-__license__ = ""
+__version_name__ = "CIT"
+__license__ = "GPLv3"
 
 import sys
 import time
