@@ -42,7 +42,7 @@ The main execution file. This class just manges the flow of the investigation pr
 
 ### Connector.py
 '''
-This Class manages the connecting to the device process. Then it performs the copy of the needed files and does a hash based integrity check for the IOS bin againt a Cisco hashes DB. 
+This Class manages the connecting to the device process.
 '''
 
 ### Investigator.py
