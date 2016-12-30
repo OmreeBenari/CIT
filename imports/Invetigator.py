@@ -111,10 +111,7 @@ class InvestigationHandler:
 		
 			print "[+] Startnig to analyze heap for frames."
 			iomemFileName = [self._path+ "coreiomem"]
-			#iomemFileName =['C:\\Users\\Omree\\Desktop\\Cases\\Memory Dump\\Router\\BAHA 8\\R290100010008SBCP-coreiomem']
 			iomemFileName = sum(map(glob.glob, iomemFileName), [])
-			#ICD.IOSFrames(self._DumpFile,iomemFileName,"HeapEvidence.pcap",self.options)
-			#ICD.IOSFrames(self._DumpFile,self._DumpFile,"Evidence.pcap",self.options)	
 			GFE.ExtractIPPacketsFromFile(self._path + "Evidence.pcap",iomemFileName,self.options)
 			report.printdata("Frames","Created the Pcap file in the investigation path.")
 			print "Done."
